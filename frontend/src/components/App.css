@@ -1,0 +1,84 @@
+.form-container {
+    max-width: 400px; /* Set maximum width for the form container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border with transparency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    margin-top: 250px;
+    height: 750px;
+    
+    background: rgba(255, 255, 255, 0.747); /* Transparent background */
+    backdrop-filter: blur(10px); /* Glass effect with blur */
+    -webkit-backdrop-filter: blur(10px); /* Support for older browsers */
+    
+    /* Optional - Light border for a frosted look */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    text-align: center; /* Center the heading text */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.complaint-form {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+
+}
+
+header{
+    margin-top: 100px;
+    z-index: 2;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space below each form group */
+}
+
+label {
+    margin-top: 5px; /* Space below labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+input[type="text"],
+input[type="datetime-local"],
+textarea {
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    width: 100%; /* Full width of the parent */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+textarea {
+    height: 100px; /* Set a fixed height for the textarea */
+}
+
+button {
+    padding: 10px; /* Inner padding for buttons */
+    background-color: #007bff; /* Background color for buttons */
+    color: white; /* Text color for buttons */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+.error {
+    color: red; /* Error message color */
+    font-size: 12px; /* Font size for error messages */
+    margin-top: 5px; /* Space above error messages */
+}
+
+.App h1 {
+    text-align: center; /* Center-align the text */
+    margin: 20px 0; /* Optional: Add some vertical spacing */
+}
+
