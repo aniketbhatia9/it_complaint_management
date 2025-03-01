@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-scripts start",
-    "install": "npm install --omit=dev"    
+    "start": "react-scripts start"    
   },
   "keywords": [
     "it",
