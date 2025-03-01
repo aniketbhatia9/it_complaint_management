@@ -1,0 +1,36 @@
+{
+  "name": "it_complaint_management",
+  "version": "1.0.0",
+  "description": "IT Complaint Management Tracker Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "postinstall": "npm install"
+  },
+  "keywords": [
+    "it",
+    "complaint",
+    "management",
+    "tickets",
+    "helpdesk"
+  ],
+  "author": "NHSRC",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "npmlog": "^7.0.1",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "react-router-dom": "^6.26.2",
+    "sequelize": "^6.37.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
